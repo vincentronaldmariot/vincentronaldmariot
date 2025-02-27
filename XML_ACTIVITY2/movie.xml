@@ -1,0 +1,48 @@
+<movie>
+  <Title>My Top 5 Movies</Title>
+  <Movies>
+    <Movie>
+      <Title>MUFASA The Lion King</Title>
+      <year>December/18/2024</year>
+      <genre>Adventure, Family, Animation</genre>
+      <director>Barry Jenkins</director>
+      <summary>Mufasa, a cub lost and alone, meets a sympathetic lion named Taka...</summary>
+      <ImageURL>https://image.tmdb.org/t/p/w600_and_h900_bestv2/9bXHaLlsFYpJUutg4E6WXAjaxDi.jpg</ImageURL>
+    </Movie>
+    <Movie>
+      <Title>VIKINGS</Title>
+      <year>March/3/2013</year>
+      <genre>Action, Adventure, Drama, War, Politics</genre>
+      <director>Michael Hirst</director>
+      <summary>The adventures of Ragnar Lothbrok, the greatest hero of his age...</summary>
+      <ImageURL>https://image.tmdb.org/t/p/w600_and_h900_bestv2/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg</ImageURL>
+    </Movie>
+    <Movie>
+      <Title>PEAKY BLINDERS</Title>
+      <year>September/12/2013</year>
+      <genre>Drama, Crime</genre>
+      <director>Steven Knight</director>
+      <summary>A gangster family epic set in 1919 Birmingham...</summary>
+      <ImageURL>https://image.tmdb.org/t/p/w600_and_h900_bestv2/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg</ImageURL>
+    </Movie>
+    <Movie>
+      <Title>JOKER</Title>
+      <year>October/03/2019</year>
+      <genre>Crime, Thriller, Drama</genre>
+      <director>Todd Phillips</director>
+      <summary>During the 1980s, a failed stand-up comedian is driven insane...</summary>
+      <ImageURL>https://image.tmdb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg</ImageURL>
+    </Movie>
+    <Movie>
+      <Title>STRANGER THINGS</Title>
+      <year>July/15/2016</year>
+      <genre>Drama, Sci-Fi, Fantasy, Mystery</genre>
+      <director>Ross Duffer, Matt Duffer</director>
+      <summary>When a young boy vanishes, a small town uncovers a mystery...</summary>
+      <ImageURL>https://image.tmdb.org/t/p/w600_and_h900_bestv2/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg</ImageURL>
+    </Movie>
+  </Movies>
+  <Footer>
+    <Text>Top 5 Movies</Text>
+  </Footer>
+</Movie>
