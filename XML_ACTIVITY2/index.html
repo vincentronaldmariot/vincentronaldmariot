@@ -3,80 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie List</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #141414;
-      color: white;
-    }
-    .container {
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .movie-list {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    .movie-item {
-      background-color: #222;
-      border-radius: 8px;
-      overflow: hidden;
-      text-align: center;
-      width: 18%;
-      transition: transform 0.5s ease-in-out;
-    }
-    .movie-item img {
-      width: 100%;
-      display: block;
-    }
-    .movie-item:hover {
-      transform: scale(1.05);
-    }
-    .movie-title {
-      padding: 10px;
-      font-size: 1.1rem;
-    }
-  </style>
+  <title>Top 5 Movies</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Top 5 Movies</h1>
-    <div class="movie-list">
-      <div class="movie-item">
-        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9bXHaLlsFYpJUutg4E6WXAjaxDi.jpg" alt="Movie 1">
-        <div class="movie-title">MUFASA The Lion King</div>
-      </div>
-      <div class="movie-item">
-        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg" alt="Movie 2">
-        <div class="movie-title">VIKINGS</div>
-      </div>
-      <div class="movie-item">
-        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg" alt="Movie 3">
-        <div class="movie-title">PEAKY BLINDERS</div>
-      </div>
-      <div class="movie-item">
-        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" alt="Movie 4">
-        <div class="movie-title">JOKER</div>
-      </div>
-      <div class="movie-item">
-        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg" alt="Movie 5">
-        <div class="movie-title">STRANGER THINGS</div>
-      </div>
-    </div>
-  </div>
-
+  <header>
+    <h1>My Top 5 Movies</h1>
+  </header>
+  <main>
+    <div class="movie-list"></div>
+  </main>
   <footer>
-    <div class="container">
-      <p>Top 5 Movies</p>
-    </div>
+    <p>Top 5 Movies - Designed Fake Netflix.com</p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
